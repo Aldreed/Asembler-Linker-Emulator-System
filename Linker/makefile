@@ -1,0 +1,2 @@
+linker: ./src/sectionTable.cpp ./src/symTable.cpp ./src/relTable.cpp  ./src/linkerController.cpp  ./src/linker.cpp ./inc/sectionTable.h ./inc/symTable.h ./inc/relTable.h  ./inc/linkerController.h
+	g++ ./src/sectionTable.cpp ./src/symTable.cpp ./src/relTable.cpp  ./src/linkerController.cpp  ./src/linker.cpp -o linker
